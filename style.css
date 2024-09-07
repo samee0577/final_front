@@ -1,0 +1,274 @@
+*{
+    font-family: "ubuntu Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.2rem;
+    background-color: #31c0be;
+    color: #fff;
+}
+
+.navbar h1{
+    margin-left: 2.5rem;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.nav_links{
+    padding: 1rem;
+}
+.nav_links_container div{
+    font-size: 1.5rem;
+    font-family: "ubuntu Sans", sans-serif;
+    font-weight: 400;
+}
+
+.nav_links_container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem 0 2rem;                              
+    text-transform: capitalize;
+}
+
+.mycontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.mycontainer h2{
+    font-size: 4rem;
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    color: #14636a;
+    margin: 0;
+    padding: 0;
+}
+
+.mycontainer p{
+    font-family: "ubuntu Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 2.3rem;
+    color:#14636a95;
+}
+
+.main_page{
+    background-image: url('./HD-wallpaper-forest-vectors-stock-psd-vector-nature.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:local;
+}
+
+.myskills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 5rem 0 5rem;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.myskills h3{
+    margin: 0;
+    padding-bottom: 0.5rem ;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.myskills div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width:fit-content;
+}
+
+.skills img{
+    border-radius: 15%;
+    background-color: #2e8487;
+    padding: 0.5rem;
+}
+
+.skills{
+    background-color:#9de2de;
+    padding: 2rem 0 2rem 0;
+    margin: 0;
+}
+
+.skills h1{
+    font-family: "quicksand", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.main{
+    padding: 0;
+    margin: 0;
+}
+
+.work_exp h3{ 
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 1.4rem 0 2rem 0;
+}
+
+.work_exp li{
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.work_exp ul{
+    line-height: 1.5rem;
+    margin: 0%;
+    padding: 0 0 2rem 0;
+}
+
+.work_exp li + li{
+    padding-top: 1.7rem;
+}
+
+.work_exp img{
+    border-radius: 50%;
+    background-color: white;
+    padding: 1rem;
+    max-width: 100rem;
+    height: 25rem;
+    padding-top: 5rem;
+}
+
+.work_exp{
+    display: grid;
+    grid-template-columns:60% 40%;
+    gap: 0;
+    text-align: left;
+    padding: 2rem 0 2rem 0;
+    background-color: #238e98;
+    color: #e4fffa;
+}
+
+.workdetail{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0 0 0 5rem;
+}
+
+.work_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5rem 0 0;
+}
+
+.margins{
+    margin: 0 5rem 0 5rem;
+}
+
+.footer{
+    background-image: linear-gradient(to bottom, #238e98, #9ad2cf);
+    color: white;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.contact{
+    text-align: left;
+}
+
+.who_am_i_grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 1rem;
+}
+
+.wh_am_i_img{
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:fit-content;
+    justify-content: center;
+    padding-left: 1.3rem;
+}
+.wh_am_i_text h1{
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.wh_am_i_text{
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+.edu{
+    margin: 0 5rem 0 5rem;
+    text-align: center;
+}
+
+.edu_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.edu_text,.project_links{
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+}
+
+.project_links{
+    padding-left: 1.5rem;
+}
+
+.project_links li+li{
+    padding-top: 0.8rem;
+}
+.edu_text{
+    border-right: 0.2rem solid #238e98;
+}
+
+.edu_text p,.project_links p{
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.edu_text h3,.project_links h3{
+    font-family: "quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.edu_container:last-child{
+    border-right: none;
+}
+
